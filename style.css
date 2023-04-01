@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
+    background-color: #181823;
 }
 
 
@@ -67,5 +68,58 @@ nav ul li a:hover {
 }
 
 .nav-btn button:hover {
+    background-color: rgb(252, 103, 49);
+}
+
+
+/* ------ HOME -------- */
+
+#hero {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 100px;
+    background-color: #181823;
+    background-size: cover;
+}
+
+#hero-greeting {
+    margin-left: 40px;
+}
+
+#hero-greeting h4 {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+
+#hero-greeting h1 {
+    margin-bottom: 30px;
+    font-size: bold;
+    font-size: 36px;
+    color: coral;
+}
+
+#hero-greeting p {
+    margin-bottom: 20px;
+    color: white;
+}
+
+#hero-greeting p span {
+    color: coral;
+}
+
+#hero-btn button {
+    background-color: coral;
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+    border-radius: 20px;
+    border-style: none;
+    width: 140px;
+    height: 40px;
+}
+
+#hero-btn button:hover {
     background-color: rgb(252, 103, 49);
 }
