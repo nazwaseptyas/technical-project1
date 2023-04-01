@@ -176,3 +176,59 @@ nav ul li a:hover {
 #resume button:hover {
     background-color: rgb(252, 103, 49);
 }
+
+
+/* ------ SKILL -------- */
+
+#skills {
+    box-sizing: border-box;
+    padding: 50px 100px;
+    background-color: #181823;
+    background-size: cover;
+}
+
+#skills h1 {
+    margin-bottom: 30px;
+    color: rgb(255, 255, 255);
+    border-left: 6px solid coral;
+    font-size: 36px;
+}
+
+.skill-card {
+    float: left;
+    width: 25%;
+    margin: 20px;
+    padding: 30px;
+}
+
+.list-skill {
+    margin: 20px -5px;
+}
+
+.list-skill:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 600px) {
+    .skill-card {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+}
+
+.skill-1 {
+    box-shadow: 0 4px 8px 0 coral;
+    padding: 16px;
+    text-align: center;
+    background-color: #181823;
+    color: white;
+    border-radius: 10px;
+    font-size: 12px;
+}
+
+.skill-1 h3 {
+    color: white;
+}
