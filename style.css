@@ -123,3 +123,56 @@ nav ul li a:hover {
 #hero-btn button:hover {
     background-color: rgb(252, 103, 49);
 }
+
+
+/* ------ ABOUT -------- */
+
+#about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 80px;
+    padding-bottom: 100px;
+    background-color: #181823;
+    background-size: 100%;
+}
+
+#aboutme {
+    padding-right: 40px;
+}
+
+#aboutdesc h1 {
+    margin-bottom: 30px;
+    color: rgb(255, 255, 255);
+    border-left: 6px solid coral;
+    font-size: 36px;
+}
+
+#aboutdesc #greeting {
+    margin-bottom: 30px;
+    color: coral;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+#aboutdesc p {
+    margin-bottom: 20px;
+    line-height: 30px;
+    color: white;
+}
+
+#resume button {
+    background-color: coral;
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border-radius: 20px;
+    border-style: none;
+    width: 170px;
+    height: 45px;
+}
+
+#resume button:hover {
+    background-color: rgb(252, 103, 49);
+}
