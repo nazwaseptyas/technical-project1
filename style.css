@@ -182,7 +182,7 @@ nav ul li a:hover {
 
 #skills {
     box-sizing: border-box;
-    padding: 50px 100px;
+    padding: 10px 100px;
     background-color: #181823;
     background-size: cover;
 }
@@ -194,11 +194,17 @@ nav ul li a:hover {
     font-size: 36px;
 }
 
+.list-skill h2 {
+    margin-bottom: 0;
+    color: coral;
+    font-size: 24px;
+}
+
 .skill-card {
     float: left;
     width: 25%;
     margin: 20px;
-    padding: 30px;
+    padding: 20px;
 }
 
 .list-skill {
@@ -241,6 +247,7 @@ nav ul li a:hover {
     justify-content: space-around;
     align-items: center;
     padding: 30px 50px;
+    margin-bottom: 50px;
 }
 
 .in-1 {
