@@ -266,3 +266,70 @@ nav ul li a:hover {
         margin-bottom: 10px;
     }
 }
+
+
+/* ------ CONTACT -------- */
+
+input[type=text] {
+    width: 500px;
+    height: 12px;
+    padding: 12px;
+    border-radius: 15px;
+    position: relative;
+    border: none;
+    box-shadow: 0px 1.5px 0px 0px coral;
+    transition: all 200ms ease-in-out;
+    opacity: 0.8;
+    font-size: 12px;
+}
+
+textarea {
+    width: 70%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 1px;
+    border-radius: 16px;
+    font-size: 12px;
+    box-shadow: 0px 1.5px 0px 0px coral;
+    font-family: 'Poppins', sans-serif;
+}
+
+#judul-cont h1 {
+    margin-bottom: 30px;
+    color: rgb(255, 255, 255);
+    border-left: 6px solid coral;
+    font-size: 36px;
+    margin: 60px;
+}
+
+#detail-form h1 {
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#contact {
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    color: white;
+    margin-bottom: 100px;
+}
+
+#cont-btn button {
+    background-color: coral;
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border-radius: 20px;
+    border-style: none;
+    width: 170px;
+    height: 45px;
+}
+
+#cont-btn button:hover {
+    background-color: rgb(252, 103, 49);
+}
