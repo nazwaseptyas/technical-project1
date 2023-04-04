@@ -7,7 +7,8 @@
 }
 
 
-/* ------ HEADER -------- */
+/* ========= HEADER ==========
+================================= */
 
 header {
     display: flex;
@@ -72,7 +73,8 @@ nav ul li a:hover {
 }
 
 
-/* ------ HOME -------- */
+/* ========= HOME ==========
+================================= */
 
 #hero {
     display: flex;
@@ -125,7 +127,8 @@ nav ul li a:hover {
 }
 
 
-/* ------ ABOUT -------- */
+/* ========= ABOUT ==========
+================================= */
 
 #about {
     display: flex;
@@ -178,7 +181,8 @@ nav ul li a:hover {
 }
 
 
-/* ------ SKILL -------- */
+/* ========= SKILL ==========
+================================= */
 
 #skills {
     box-sizing: border-box;
@@ -240,7 +244,8 @@ nav ul li a:hover {
 }
 
 
-/* ------ INTEREST -------- */
+/* ========= INTEREST ==========
+================================= */
 
 .list-in {
     display: flex;
@@ -268,7 +273,8 @@ nav ul li a:hover {
 }
 
 
-/* ------ CONTACT -------- */
+/* ========= CONTACT ==========
+================================= */
 
 input[type=text] {
     width: 500px;
@@ -281,6 +287,7 @@ input[type=text] {
     transition: all 200ms ease-in-out;
     opacity: 0.8;
     font-size: 12px;
+    color: white;
 }
 
 textarea {
@@ -293,6 +300,7 @@ textarea {
     font-size: 12px;
     box-shadow: 0px 1.5px 0px 0px coral;
     font-family: 'Poppins', sans-serif;
+    color: white;
 }
 
 #judul-cont h1 {
@@ -332,4 +340,56 @@ textarea {
 
 #cont-btn button:hover {
     background-color: rgb(252, 103, 49);
+}
+
+
+/* ========= ACTIVE ==========
+================================= */
+
+.active {
+    color: coral;
+    border-bottom: 2px solid coral;
+    padding: 20px;
+}
+
+
+/* ========= BLOG ==========
+================================= */
+
+article {
+    color: white;
+    padding: 50px;
+    margin: 50px;
+}
+
+.articles {
+    background-color: coral;
+}
+
+.articles h4 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: coral;
+}
+
+#judul-art {
+    margin-bottom: 30px;
+    color: rgb(255, 255, 255);
+    border-left: 6px solid coral;
+    font-size: 24px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.judul h1 {
+    color: white;
+    padding-left: 30px;
+    font-size: 24px;
+    margin-top: 50px;
+}
+
+.judul h6 {
+    color: white;
+    padding-left: 30px;
 }
