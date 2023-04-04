@@ -8,3 +8,5 @@ Halaman website terdiri dari 5 halaman yaitu:
 3. Skills Page
 4. Blog/Articles Page
 5. Contact Page
+
+https://nazwaseptyas-technicalproject1.netlify.app
